@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Harsha Lohana | Full Stack Developer</title>
+    <title>Harsha Lohana | Full Stack Developer & AI Enthusiast</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Source+Code+Pro:wght@300;400;500&display=swap" rel="stylesheet">
     <style>
@@ -223,6 +223,7 @@
         .hero-btns {
             display: flex;
             gap: 20px;
+            flex-wrap: wrap;
         }
 
         .hero-image {
@@ -350,6 +351,12 @@
             border: 2px dashed var(--secondary);
         }
 
+        /* Certificate Button */
+        .certificate-btn {
+            margin-top: 20px;
+            display: inline-block;
+        }
+
         /* Compact Journey Section */
         .journey-timeline {
             position: relative;
@@ -421,7 +428,7 @@
 
         .timeline-card:hover,
         .timeline-card.expanded {
-            max-height: 500px;
+            max-height: 600px;
             transform: translateY(-5px);
             box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15);
         }
@@ -464,7 +471,7 @@
         .timeline-card:hover .timeline-details,
         .timeline-card.expanded .timeline-details {
             opacity: 1;
-            max-height: 400px;
+            max-height: 500px;
             margin-top: 15px;
         }
 
@@ -637,6 +644,23 @@
             box-shadow: 0 5px 15px rgba(255, 101, 132, 0.3);
         }
 
+        /* Focus Areas */
+        .focus-areas {
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+            margin-top: 10px;
+        }
+
+        .focus-tag {
+            background: rgba(108, 99, 255, 0.1);
+            color: var(--primary);
+            padding: 5px 12px;
+            border-radius: 50px;
+            font-size: 0.85rem;
+            font-weight: 500;
+        }
+
         /* Responsive Design */
         @media (max-width: 992px) {
             h1 {
@@ -788,11 +812,12 @@
     <section class="hero" id="home">
         <div class="container">
             <div class="hero-content">
-                <h1>Full Stack Developer & AI Enthusiast</h1>
-                <p>Hi, I'm Harsha Lohana. I build exceptional digital experiences with a focus on AI-powered solutions, web development, and automation tools. Let's turn your ideas into reality.</p>
+                <h1>Full Stack Developer & AI/ML Enthusiast</h1>
+                <p>Hi, I'm Harsha Lohana. I build exceptional digital experiences with a focus on AI/ML solutions, web development, and automation tools. Currently working as a Full Stack Developer at a Mumbai-based startup.</p>
                 <div class="hero-btns">
                     <a href="#projects" class="btn">View Projects</a>
                     <a href="mailto:hlohana137@gmail.com" class="btn btn-secondary">Contact Me</a>
+                    <a href="mailto:hlohana137@gmail.com?subject=Certificate Request" class="btn btn-secondary">Certificates Available on Request</a>
                 </div>
             </div>
             <div class="hero-image">
@@ -806,11 +831,12 @@
                         <div class="code-line"><span class="code-keyword">const</span> <span class="code-function">developer</span> = {</div>
                         <div class="code-line">&nbsp;&nbsp;name: <span class="code-string">"Harsha Lohana"</span>,</div>
                         <div class="code-line">&nbsp;&nbsp;role: <span class="code-string">"Full Stack Developer"</span>,</div>
+                        <div class="code-line">&nbsp;&nbsp;company: <span class="code-string">"Perfecient Solution"</span>,</div>
                         <div class="code-line">&nbsp;&nbsp;languages: [</div>
                         <div class="code-line">&nbsp;&nbsp;&nbsp;&nbsp;<span class="code-string">"Python"</span>, <span class="code-string">"JavaScript"</span>, <span class="code-string">"PHP"</span>,</div>
                         <div class="code-line">&nbsp;&nbsp;&nbsp;&nbsp;<span class="code-string">"SQL"</span>, <span class="code-string">"HTML/CSS"</span></div>
                         <div class="code-line">&nbsp;&nbsp;],</div>
-                        <div class="code-line">&nbsp;&nbsp;passion: <span class="code-string">"Building AI-powered solutions"</span></div>
+                        <div class="code-line">&nbsp;&nbsp;passion: <span class="code-string">"AI/ML & Robotics"</span></div>
                         <div class="code-line">};</div>
                         <div class="code-line"><span class="code-comment">// Let's build something amazing together!</span></div>
                     </div>
@@ -825,15 +851,18 @@
             <h2>About Me</h2>
             <div class="about-content">
                 <div>
-                    <h3>Building AI-Powered Solutions</h3>
-                    <p>I am an MSc IT graduate and a passionate software developer with hands-on experience in building real-world applications. I enjoy working on web development, AI-powered solutions, and automation tools.</p>
-                    <p>My focus is on creating clean, efficient, and user-friendly software that solves real-world problems. I'm constantly learning new technologies and expanding my skill set.</p>
+                    <h3>Building AI/ML & Web Solutions</h3>
+                    <p>I am an MSc IT graduate and a passionate software developer with hands-on experience in building real-world applications. Currently working as a Full Stack Developer at Perfecient Solution, a startup based in Mumbai.</p>
+                    <p>My focus is on creating clean, efficient, and user-friendly software that solves real-world problems. I'm deeply interested in AI/ML and robotics, and constantly expanding my knowledge in these areas.</p>
                     <p>When I'm not coding, I create tech content for my YouTube channel "Chai and Code" where I share coding tutorials and AI news in Hindi.</p>
                     <a href="mailto:hlohana137@gmail.com" class="btn">Get In Touch</a>
+                    <a href="mailto:hlohana137@gmail.com?subject=Certificate Request" class="btn btn-secondary certificate-btn">
+                        <i class="fas fa-certificate"></i> Certificates Available on Request
+                    </a>
                 </div>
                 <div>
                     <div class="learning-badge">
-                        <i class="fas fa-graduation-cap"></i> Currently Learning: React.js
+                        <i class="fas fa-graduation-cap"></i> Currently Learning: AI/ML & Robotics
                     </div>
                     <div class="skills-container">
                         <div class="skill-category">
@@ -850,7 +879,6 @@
                             <div class="skills">
                                 <div class="skill">HTML5</div>
                                 <div class="skill">CSS3</div>
-                                <div class="skill learning-skill">React.js</div>
                             </div>
                         </div>
                         
@@ -864,13 +892,14 @@
                         </div>
                         
                         <div class="skill-category">
-                            <h4>Tools & Others</h4>
+                            <h4>AI/ML & Tools</h4>
                             <div class="skills">
-                                <div class="skill">Git/GitHub</div>
-                                <div class="skill">Bash/CLI</div>
+                                <div class="skill learning-skill">AI/ML</div>
+                                <div class="skill learning-skill">Robotics</div>
                                 <div class="skill">OpenCV</div>
                                 <div class="skill">OCR</div>
-                                <div class="skill">AI/ML Basics</div>
+                                <div class="skill">Git/GitHub</div>
+                                <div class="skill">Bash/CLI</div>
                             </div>
                         </div>
                     </div>
@@ -890,14 +919,17 @@
                     </div>
                     <div class="timeline-card">
                         <div class="timeline-header">
-                            <span class="timeline-date">2017 - 2020</span>
+                            <span class="timeline-date">2019 - May 2022</span>
                             <i class="fas fa-chevron-down expand-icon"></i>
                         </div>
-                        <h3>Bachelor's Degree</h3>
+                        <h3>Bachelor's Degree in Computer Science</h3>
                         <div class="timeline-details">
-                            <p>Completed my Bachelor's degree in Computer Science with a focus on software development fundamentals and programming concepts.</p>
-                            <p><strong>Percentage:</strong> 75%</p>
-                            <p><strong>Key Learnings:</strong> Programming fundamentals, Data Structures, Algorithms, Web Development basics</p>
+                            <p>Completed my Bachelor's degree in Computer Science with excellent academic performance.</p>
+                            <p><strong>Total Marks:</strong> 1877/2280</p>
+                            <p><strong>Percentage:</strong> 82.32%</p>
+                            <p><strong>Grade:</strong> O</p>
+<p><strong>Achievement:</strong> Overall Fourth Rank in University</p>
+                            <p><strong>Key Learnings:</strong> Programming fundamentals, Data Structures, Algorithms, Web Development basics, Database Management</p>
                         </div>
                     </div>
                 </div>
@@ -908,14 +940,16 @@
                     </div>
                     <div class="timeline-card">
                         <div class="timeline-header">
-                            <span class="timeline-date">2021</span>
+                            <span class="timeline-date">2022 - May 2024</span>
                             <i class="fas fa-chevron-down expand-icon"></i>
                         </div>
-                        <h3>MSc IT Degree</h3>
+                        <h3>Master of Science in IT (MSc IT)</h3>
                         <div class="timeline-details">
-                            <p>Pursued Master of Science in Information Technology, specializing in advanced software development, databases, and emerging technologies.</p>
-                            <p><strong>Focus Areas:</strong> Web Technologies, Database Management, Software Engineering, AI Fundamentals</p>
-                            <p><strong>Projects:</strong> Developed multiple full-stack applications and gained expertise in modern web technologies</p>
+                            <p>Successfully completed Master of Science in Information Technology with outstanding performance.</p>
+                            <p><strong>Total Marks:</strong> 1739/1980</p>
+                            <p><strong>Grade:</strong> O+</p>
+                            <p><strong>Achievement:</strong> Overall Second Rank in University</p>
+                            <p><strong>Focus Areas:</strong> Advanced Web Technologies, Database Management, Software Engineering, AI Fundamentals, Cloud Computing</p>
                         </div>
                     </div>
                 </div>
@@ -926,14 +960,15 @@
                     </div>
                     <div class="timeline-card">
                         <div class="timeline-header">
-                            <span class="timeline-date">2022 - Present</span>
+                            <span class="timeline-date">2024 - Present</span>
                             <i class="fas fa-chevron-down expand-icon"></i>
                         </div>
-                        <h3>Full Stack Developer</h3>
+                        <h3>Full Stack Developer at Perfecient Solution</h3>
                         <div class="timeline-details">
-                            <p>Currently working as a Full Stack Developer, building end-to-end web applications and AI-powered solutions.</p>
-                            <p><strong>Responsibilities:</strong> Developing full-stack applications, implementing AI features, database design, and deployment</p>
-                            <p><strong>Achievements:</strong> Successfully delivered multiple AI-powered projects, optimized application performance, and implemented scalable solutions</p>
+                            <p>Currently working as a Full Stack Developer at Perfecient Solution, a startup based in Mumbai.</p>
+                            <p><strong>Responsibilities:</strong> Developing end-to-end web applications, implementing features, database design, deployment, and maintenance</p>
+                            <p><strong>Technologies Used:</strong> PHP, JavaScript, MySQL, HTML/CSS, Firebase</p>
+                            <p><strong>Achievements:</strong> Building scalable solutions, implementing AI features in projects, optimizing application performance</p>
                         </div>
                     </div>
                 </div>
@@ -944,14 +979,21 @@
                     </div>
                     <div class="timeline-card">
                         <div class="timeline-header">
-                            <span class="timeline-date">Present</span>
+                            <span class="timeline-date">Present Focus</span>
                             <i class="fas fa-chevron-down expand-icon"></i>
                         </div>
-                        <h3>Portfolio & Continuous Learning</h3>
+                        <h3>Current Focus & Continuous Learning</h3>
                         <div class="timeline-details">
-                            <p>This portfolio website showcases my skills and projects. I'm continuously working on new projects and improving my skills in AI and web development.</p>
-                            <p><strong>Current Focus:</strong> AI-powered applications, scalable web solutions, and tech content creation</p>
-                            <p><strong>Currently Learning:</strong> React.js, Advanced JavaScript concepts, Modern frontend development</p>
+                            <p>Deeply focused on advancing my skills in AI/ML and robotics while contributing to innovative projects.</p>
+                            <div class="focus-areas">
+                                <span class="focus-tag">AI/ML Engineering</span>
+                                <span class="focus-tag">Robotics</span>
+                                <span class="focus-tag">Computer Vision</span>
+                                <span class="focus-tag">Deep Learning</span>
+                                <span class="focus-tag">Automation</span>
+                            </div>
+                            <p><strong>Currently Learning:</strong> Advanced Machine Learning algorithms, Robotics programming, Neural Networks, TensorFlow/PyTorch</p>
+                            <p><strong>Goals:</strong> Building intelligent systems, contributing to robotics research, developing AI-powered web solutions</p>
                         </div>
                     </div>
                 </div>
@@ -1081,6 +1123,9 @@
                         <h3>Email</h3>
                         <p>hlohana137@gmail.com</p>
                         <a href="mailto:hlohana137@gmail.com" class="btn" style="margin-top: 15px;">Send Email</a>
+                        <a href="mailto:hlohana137@gmail.com?subject=Certificate Request" class="btn btn-secondary certificate-btn" style="margin-top: 10px;">
+                            <i class="fas fa-certificate"></i> Request Certificates
+                        </a>
                     </div>
                     
                     <div class="contact-item">
@@ -1118,7 +1163,7 @@
                 </div>
             </div>
             <div class="copyright">
-                <p>&copy; 2023 Harsha Lohana. All Rights Reserved. | Portfolio Website</p>
+                <p>&copy; 2024 Harsha Lohana. All Rights Reserved. | Full Stack Developer at Perfecient Solution</p>
             </div>
         </div>
     </footer>
